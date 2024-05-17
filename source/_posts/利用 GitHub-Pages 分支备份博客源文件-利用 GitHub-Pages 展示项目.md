@@ -9,6 +9,7 @@ tags: [Guide, GitHub]
 
 其实 hexo 生成的文件里有 `.gitignore`，本意应该也是想我们把这些文件 push 到 GitHub 上。利用分支备份博客源代码，原理很简单，就是在博客对应的 Repository 里添加一个分支 backup，把源文件 push 到这个分支上，把 hexo 生成的静态网页文件 deploy 在 master 分支上。
 
+<!--more-->
 ## 利用分支备份博客源代码
 
 ### 备份源码
