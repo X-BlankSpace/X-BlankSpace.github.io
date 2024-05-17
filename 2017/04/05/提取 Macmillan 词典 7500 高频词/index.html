@@ -17,7 +17,7 @@
 <meta property="og:description" content="感觉词汇量捉急，所以想先背点词汇，再通过阅读强化。比较靠谱的高频词汇表有从 COCA(Corpus of Contemporary American English 美国当代英语语料库)整理出的 5k 和 20k 个高频词汇表，和 Macmillan 词典标示的 7.5k 个高频词汇。Macmillan 词典将这 7.5k 个词汇分别用一星，二星，三星标示，其中三星的使用频率最高。我比较喜欢 Ma">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2017-04-05T14:20:20.000Z">
-<meta property="article:modified_time" content="2024-05-17T19:21:29.004Z">
+<meta property="article:modified_time" content="2024-05-17T20:46:26.579Z">
 <meta property="article:author" content="x.blankspace">
 <meta property="article:tag" content="English">
 <meta property="article:tag" content="Macmillan">
@@ -159,6 +159,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>感觉词汇量捉急，所以想先背点词汇，再通过阅读强化。比较靠谱的高频词汇表有从 COCA(Corpus of Contemporary American English 美国当代英语语料库)整理出的 5k 和 20k 个高频词汇表，和 Macmillan 词典标示的 7.5k 个高频词汇。Macmillan 词典将这 7.5k 个词汇分别用一星，二星，三星标示，其中三星的使用频率最高。我比较喜欢 Macmillan 的词汇表，从 COCA 整理出的词汇表网上很多，但我没找到 Macmillan 的，于是决定自己提取。</p>
+<span id="more"></span>
 <p>初始想法是，既然是用星星图案标示的，直接从星星入手就好了。下载的词典格式是 mdx 的，在网上找到了转换工具，将其转成 txt 格式。词典太大，无法在 Webstorm 中打开，建议用 Sublime。观察发现，除了第一个单词外，其余每个单词都在两个 <code>&lt;/&gt;</code> 之间，并且每个单词出现在第一个 <code>&lt;/&gt;</code> 后面。这个规律相对统一，提取时不容易出错，于是采纳这个新的提取思路。</p>
 <p>最后提取出的单词约为 6k 个，于是在解压出的 txt 文件中分别搜索三星，二星，一星，将其频数相加，发现只有 7.1k+ 个，又换了一个词典文件，发现仍然不足 7.5k，虽然心里很难受，但决定不犯强迫症。取适量样本进行对比分析，发现提取出的单词数目偏少的原因是一个单词有不同的词性。Macmillan 词典对不同词性分别标示，比如 act, account 的动词和名词形式均为三星词汇，所以对这两个单词的不同词性分别标示了三星。</p>
 <p>最后整理出的词汇表按星级不同分三个 txt 文件存储，每行一个单词，可以导入 APP 中背诵。</p>
@@ -439,10 +440,6 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">GitHub</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">Thought</a>
               </li>
              
@@ -452,6 +449,10 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">Gattaca</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">GitHub</a>
               </li>
              
               <li class="article-tag-list-item">

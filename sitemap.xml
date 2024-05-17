@@ -2,25 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://x-blankspace.github.io/2015/12/05/LA3942-Remember-the-word/</loc>
-    
-    <lastmod>2024-05-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://x-blankspace.github.io/2017/07/21/%E5%88%A9%E7%94%A8%E8%8A%B1%E7%94%9F%E5%A3%B3%E5%92%8C%20ss%20%E5%AE%9E%E7%8E%B0%E5%A4%96%E7%BD%91%E8%AE%BF%E9%97%AE%E6%A0%A1%E5%9B%AD%E7%BD%91-%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</loc>
-    
-    <lastmod>2024-05-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://x-blankspace.github.io/2017/03/20/%E5%88%A9%E7%94%A8%20GitHub-Pages%20%E5%88%86%E6%94%AF%E5%A4%87%E4%BB%BD%E5%8D%9A%E5%AE%A2%E6%BA%90%E6%96%87%E4%BB%B6-%E5%88%A9%E7%94%A8%20GitHub-Pages%20%E5%B1%95%E7%A4%BA%E9%A1%B9%E7%9B%AE/</loc>
+    
+    <lastmod>2024-05-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://x-blankspace.github.io/2015/11/16/USACO-1-1-4-Mother-s-Milk/</loc>
     
     <lastmod>2024-05-17</lastmod>
     
@@ -38,7 +29,16 @@
   </url>
   
   <url>
-    <loc>https://x-blankspace.github.io/2015/11/16/USACO-1-1-4-Mother-s-Milk/</loc>
+    <loc>https://x-blankspace.github.io/2017/07/21/%E5%88%A9%E7%94%A8%E8%8A%B1%E7%94%9F%E5%A3%B3%E5%92%8C%20ss%20%E5%AE%9E%E7%8E%B0%E5%A4%96%E7%BD%91%E8%AE%BF%E9%97%AE%E6%A0%A1%E5%9B%AD%E7%BD%91-%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</loc>
+    
+    <lastmod>2024-05-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://x-blankspace.github.io/2015/12/05/LA3942-Remember-the-word/</loc>
     
     <lastmod>2024-05-17</lastmod>
     
@@ -111,13 +111,6 @@
   </url>
   
   <url>
-    <loc>https://x-blankspace.github.io/tags/GitHub/</loc>
-    <lastmod>2024-05-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://x-blankspace.github.io/tags/Thought/</loc>
     <lastmod>2024-05-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -133,6 +126,13 @@
   
   <url>
     <loc>https://x-blankspace.github.io/tags/Gattaca/</loc>
+    <lastmod>2024-05-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://x-blankspace.github.io/tags/GitHub/</loc>
     <lastmod>2024-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -183,14 +183,14 @@
   </url>
   
   <url>
-    <loc>https://x-blankspace.github.io/categories/Life/</loc>
+    <loc>https://x-blankspace.github.io/categories/Other/</loc>
     <lastmod>2024-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://x-blankspace.github.io/categories/Other/</loc>
+    <loc>https://x-blankspace.github.io/categories/Life/</loc>
     <lastmod>2024-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
