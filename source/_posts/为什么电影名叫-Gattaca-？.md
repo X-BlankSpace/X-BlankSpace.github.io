@@ -1,7 +1,7 @@
 ---
 title: 为什么电影名叫 Gattaca ？
 date: 2024-05-17 22:38:35
-categories: [Life]
+categories: Life
 tags: [Thought, Movie, Gattaca]
 toc: true
 ---
