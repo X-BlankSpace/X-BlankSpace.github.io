@@ -1,7 +1,7 @@
 ---
 title: Hello World
 date: 2015-11-16
-categories: 随笔
+categories: Other
 tags: Guide
 toc: true
 ---
