@@ -1,3 +1,4 @@
+/*
 var jsCookie = require('js-cookie')
 
 require('badjs-report')
@@ -52,3 +53,4 @@ if (window.BJ_REPORT) {
 module.exports = {
 	init: function() {}
 }
+*/
