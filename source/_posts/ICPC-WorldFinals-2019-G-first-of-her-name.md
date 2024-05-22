@@ -66,7 +66,7 @@ table th:nth-of-type(4) {
 | ENERYS     | SYRENE    | 5 | 6 |
 | AENERYS    | SYRENEA   | 6 | 7 |
 | DAENERYS   | SYRENEAD  | 7 | 8 |
-| YAENERYS   | SYRENEAY  | 8 | 9 |
+| YAENERYS   | SYRENEAY  | 7 | 9 |
 | RYAENERYS  | SYRENEAYR | 9 | 10 |
 
 | 询问串 | 询问反串 | 序号 | 答案 |
