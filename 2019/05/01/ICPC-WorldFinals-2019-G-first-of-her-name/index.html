@@ -7,14 +7,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://x-blankspace.github.io">
-  <title>Archives: 2017/7 | Serendipity</title>
+  <title>ICPC WorldFinals 2019 G 「First of Her Name」 | Serendipity</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Serendipity">
-<meta property="og:url" content="https://x-blankspace.github.io/archives/2017/07/index.html">
+  <meta name="description" content="Problem Description题目链接：Kattis &#x2F; First of Her Name洛谷 &#x2F; P6257 First of Her Name 众所周知，皇室家族的名字非常有讲究。而作为研究皇室的历史学家的你，最近接到了一个艰巨的任务——分析王国历史中所有皇室夫人的名字。 王国历史上有 n 位皇室夫人，方便起见，我们将其从 1 至 n 编号。除了 1 号夫人外，其">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ICPC WorldFinals 2019 G 「First of Her Name」">
+<meta property="og:url" content="https://x-blankspace.github.io/2019/05/01/ICPC-WorldFinals-2019-G-first-of-her-name/index.html">
 <meta property="og:site_name" content="Serendipity">
+<meta property="og:description" content="Problem Description题目链接：Kattis &#x2F; First of Her Name洛谷 &#x2F; P6257 First of Her Name 众所周知，皇室家族的名字非常有讲究。而作为研究皇室的历史学家的你，最近接到了一个艰巨的任务——分析王国历史中所有皇室夫人的名字。 王国历史上有 n 位皇室夫人，方便起见，我们将其从 1 至 n 编号。除了 1 号夫人外，其">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2019-05-01T12:24:51.000Z">
+<meta property="article:modified_time" content="2024-05-22T09:28:49.344Z">
 <meta property="article:author" content="x.blankspace">
+<meta property="article:tag" content="Algorithm">
+<meta property="article:tag" content="AC Automaton">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Serendipity" type="application/atom+xml">
@@ -131,75 +137,338 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-ICPC-WorldFinals-2019-G-first-of-her-name" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2017" class="archive-year">2017</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/07/21/%E5%88%A9%E7%94%A8%E8%8A%B1%E7%94%9F%E5%A3%B3%E5%92%8C%20ss%20%E5%AE%9E%E7%8E%B0%E5%A4%96%E7%BD%91%E8%AE%BF%E9%97%AE%E6%A0%A1%E5%9B%AD%E7%BD%91-%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/" class="archive-article-date">
-  	<time datetime="2017-07-20T20:20:08.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-07-21</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/07/21/%E5%88%A9%E7%94%A8%E8%8A%B1%E7%94%9F%E5%A3%B3%E5%92%8C%20ss%20%E5%AE%9E%E7%8E%B0%E5%A4%96%E7%BD%91%E8%AE%BF%E9%97%AE%E6%A0%A1%E5%9B%AD%E7%BD%91-%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/">利用花生壳和 ss 实现「外网访问校园网 &amp; 个人网站」</a>
+    <h1 class="article-title" itemprop="name">
+      ICPC WorldFinals 2019 G 「First of Her Name」
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2019/05/01/ICPC-WorldFinals-2019-G-first-of-her-name/" class="archive-article-date">
+  	<time datetime="2019-05-01T12:24:51.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-01</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Problem-Description"><a href="#Problem-Description" class="headerlink" title="Problem Description"></a>Problem Description</h2><p>题目链接：<br><a target="_blank" rel="noopener" href="https://open.kattis.com/problems/firstofhername">Kattis &#x2F; First of Her Name</a><br><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P6257">洛谷 &#x2F; P6257 First of Her Name</a></p>
+<p>众所周知，皇室家族的名字非常有讲究。而作为研究皇室的历史学家的你，最近接到了一个艰巨的任务——分析王国历史中所有皇室夫人的名字。</p>
+<p>王国历史上有 n 位皇室夫人，方便起见，我们将其从 1 至 n 编号。除了 1 号夫人外，其余夫人的名字均为一个大写字母连接着她母亲的名字。而 1 号夫人作为王国的首任王后，她的名字只有一个大写字母。</p>
+<p>例如，由于 AENERYS 由 A 与 ENERYS 组成，因此 ENERYS 是 AENERYS 的母亲。相似地，AENERYS 是 DAENERYS 与 YAENERYS 的母亲。</p>
+<span id="more"></span>
+<p>你知道王国历史上所有皇室夫人的姓名与关系，而你需要完成的任务是，对于其他历史学家感兴趣的名字串 s，总共有多少位夫人的名字是以 s 起始的。</p>
+<p>例如在样例的皇室族谱中，S 至 AENERYS 的这一支（包含 YS、RYS、ERYS、NERYS 与 ENERYS 这几位夫人）均只有一位女儿。接下来 AENERYS 有两位女儿，分别是 DAENERYS，以及女儿是 RYAENERYS 的 YAENERYS。</p>
+<p>在这个皇室家族内，有两位夫人的名字以 RY 起始，她们是 RYS 与 RYAENERYS。而 ERYS 与 ENERYS 均以 E 起始。名字以 N 起始的仅有一位夫人 NERYS。同样地，以 S 起始的仅有首位王后 S。而没有任何一位夫人的名字以 AY 起始。</p>
+<h3 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h3><p>第一行有两个整数 $n, k$，$n$ $(1 \leq n \leq 10^6)$ 代表王国历史上皇室夫人总数，$k$ $(1 \leq k \leq 10^6)$ 代表其他历史学家感兴趣的名字串的个数。</p>
+<p>接下来 $n$ 行描述所有皇室夫人的姓名与关系。第 $i+1$ 行描述第 $i$ 位夫人的资料 $c_i$ 与 $p_i$，其中字符 $c_i$ 表示她名字的首位字母，$p_i$ 为她母亲的编号 $(p_1&#x3D;0\ 且对于\ 1\lt i\leq n，保证有\ 1\leq p_i\lt i)$。所有夫人的名字均不重复。</p>
+<p>接下来 $k$ 行，每行为一个大写字母构成的非空串，代表一个其他历史学家感兴趣的名字串。所有名字串长度之和不超过 $10^6$。</p>
+<h3 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h3><p>输出 $k$ 行，第 $i$ 行为一个整数，代表总共有多少位夫人的名字是以第 $i$ 个感兴趣的名字串起始的。</p>
+<h2 id="Thought"><a href="#Thought" class="headerlink" title="Thought"></a>Thought</h2><p>所有夫人名字的反串可以构成一棵前缀树，而且每个节点都代表一个唯一的夫人名字。</p>
+<p>题目问的是以询问串为前缀的夫人名字有多少，等价于问以询问反串为后缀的夫人名字反串有多少。</p>
+<p>那么我们只需要把询问反串也加入前缀树中，接着构造 AC 自动机，问题就转化为求询问反串所在节点的 fail 树的子树中有多少个夫人，从下往上递推累加即可。</p>
+<style>
+table th:first-of-type {
+    width: 35%;
+}
+table th:nth-of-type(2) {
+    width: 35%;
+}
+table th:nth-of-type(3) {
+    width: 15%;
+}
+table th:nth-of-type(4) {
+    width: 15%;
+}
+</style>
+
+<table>
+<thead>
+<tr>
+<th align="right">名字</th>
+<th align="right">名字反串</th>
+<th align="center">母亲节点</th>
+<th align="center">本节点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="right">S</td>
+<td align="right">S</td>
+<td align="center">0</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="right">YS</td>
+<td align="right">SY</td>
+<td align="center">1</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="right">RYS</td>
+<td align="right">SYR</td>
+<td align="center">2</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="right">ERYS</td>
+<td align="right">SYRE</td>
+<td align="center">3</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td align="right">NERYS</td>
+<td align="right">SYREN</td>
+<td align="center">4</td>
+<td align="center">5</td>
+</tr>
+<tr>
+<td align="right">ENERYS</td>
+<td align="right">SYRENE</td>
+<td align="center">5</td>
+<td align="center">6</td>
+</tr>
+<tr>
+<td align="right">AENERYS</td>
+<td align="right">SYRENEA</td>
+<td align="center">6</td>
+<td align="center">7</td>
+</tr>
+<tr>
+<td align="right">DAENERYS</td>
+<td align="right">SYRENEAD</td>
+<td align="center">7</td>
+<td align="center">8</td>
+</tr>
+<tr>
+<td align="right">YAENERYS</td>
+<td align="right">SYRENEAY</td>
+<td align="center">8</td>
+<td align="center">9</td>
+</tr>
+<tr>
+<td align="right">RYAENERYS</td>
+<td align="right">SYRENEAYR</td>
+<td align="center">9</td>
+<td align="center">10</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="center">询问串</th>
+<th align="center">询问反串</th>
+<th align="center">序号</th>
+<th align="center">答案</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">RY</td>
+<td align="center">YR</td>
+<td align="center">0</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">E</td>
+<td align="center">E</td>
+<td align="center">1</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">N</td>
+<td align="center">N</td>
+<td align="center">2</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">S</td>
+<td align="center">S</td>
+<td align="center">3</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">AY</td>
+<td align="center">YA</td>
+<td align="center">4</td>
+<td align="center">0</td>
+</tr>
+</tbody></table>
+<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> MAXNUM = <span class="number">1e6</span> + <span class="number">10</span>;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> MAXNODE = <span class="number">2</span> * MAXNUM;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> MAXCHILD = <span class="number">26</span>;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> globalNode;</span><br><span class="line"><span class="type">int</span> trie[MAXNODE][MAXCHILD], fail[MAXNODE], queue[MAXNODE], cnt[MAXNODE];</span><br><span class="line"><span class="type">int</span> queryNode[MAXNUM];</span><br><span class="line"><span class="type">char</span> query[MAXNUM];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">idx</span><span class="params">(<span class="type">char</span> ch)</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> ch - <span class="string">&#x27;A&#x27;</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">insert</span><span class="params">(<span class="type">char</span> c, <span class="type">int</span> mother)</span></span>&#123;</span><br><span class="line">    trie[mother][<span class="built_in">idx</span>(c)] = ++globalNode;</span><br><span class="line">    cnt[globalNode] = <span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">insert</span><span class="params">(<span class="type">char</span> *str)</span></span>&#123;</span><br><span class="line">    <span class="type">int</span> node = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="built_in">strlen</span>(str)<span class="number">-1</span>; i&gt;=<span class="number">0</span>; i--)&#123;</span><br><span class="line">        <span class="type">int</span> child=<span class="built_in">idx</span>(str[i]);</span><br><span class="line">        <span class="keyword">if</span>(!trie[node][child]) trie[node][child] = ++globalNode;</span><br><span class="line">        node = trie[node][child];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> node;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">build</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">int</span> front = <span class="number">0</span>, rear = <span class="number">0</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>; i&lt;MAXCHILD; i++)</span><br><span class="line">        <span class="keyword">if</span>(trie[<span class="number">0</span>][i]) queue[rear++] = trie[<span class="number">0</span>][i];</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span>(front != rear)&#123;</span><br><span class="line">        <span class="type">int</span> cur = queue[front++];</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>; i&lt;MAXCHILD; i++)&#123;</span><br><span class="line">            <span class="type">int</span> node = trie[cur][i];</span><br><span class="line">            <span class="keyword">if</span>(node)&#123;</span><br><span class="line">                fail[node] = trie[fail[cur]][i];</span><br><span class="line">                queue[rear++] = node;</span><br><span class="line">            &#125; <span class="keyword">else</span></span><br><span class="line">                trie[cur][i] = trie[fail[cur]][i];</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">count</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = globalNode<span class="number">-1</span>; i&gt;=<span class="number">0</span>; i--) cnt[fail[queue[i]]] += cnt[queue[i]];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="comment">// freopen(&quot;find_her_name.in&quot;, &quot;r&quot;, stdin);</span></span><br><span class="line">    <span class="type">int</span> n, m;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d %d\n&quot;</span>, &amp;n, &amp;m);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>; i&lt;n; i++)&#123;</span><br><span class="line">        <span class="type">char</span> c;</span><br><span class="line">        <span class="type">int</span> mother;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">&quot;%c %d\n&quot;</span>, &amp;c, &amp;mother);</span><br><span class="line">        <span class="built_in">insert</span>(c, mother);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>; i&lt;=m; i++)&#123;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">&quot;%s&quot;</span>, query);</span><br><span class="line">        queryNode[i]=<span class="built_in">insert</span>(query);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">build</span>();</span><br><span class="line">    <span class="built_in">count</span>();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>; i&lt;=m; i++) <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, cnt[queryNode[i]]);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Tech</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Algorithm</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">内网穿透</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">AC Automaton</a>
         		</li>
       		
 		</ul>
 	</div>
 
-          
+      
 	<div class="article-category tagcloud">
 		<i class="icon-book icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-					<a href="/categories/Life/" class="article-tag-list-link color5">Life</a>
+					<a href="/categories/Learning/" class="article-tag-list-link color4">Learning</a>
         		</li>
       		
 		</ul>
 	</div>
 
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=https://x-blankspace.github.io/2019/05/01/ICPC-WorldFinals-2019-G-first-of-her-name/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+    <a href="/2024/05/17/%E4%B8%BA%E4%BB%80%E4%B9%88%E7%94%B5%E5%BD%B1%E5%90%8D%E5%8F%AB-Gattaca-%EF%BC%9F/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          为什么电影名叫 Gattaca ？
+        
+      </div>
+    </a>
   
   
-    </div></section>
+    <a href="/2017/07/21/%E5%88%A9%E7%94%A8%E8%8A%B1%E7%94%9F%E5%A3%B3%E5%92%8C%20ss%20%E5%AE%9E%E7%8E%B0%E5%A4%96%E7%BD%91%E8%AE%BF%E9%97%AE%E6%A0%A1%E5%9B%AD%E7%BD%91-%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">利用花生壳和 ss 实现「外网访问校园网 &amp; 个人网站」</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Problem-Description"><span class="toc-number">1.</span> <span class="toc-text">Problem Description</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Input"><span class="toc-number">1.1.</span> <span class="toc-text">Input</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Output"><span class="toc-number">1.2.</span> <span class="toc-text">Output</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Thought"><span class="toc-number">2.</span> <span class="toc-text">Thought</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Code"><span class="toc-number">3.</span> <span class="toc-text">Code</span></a></li></ol>
+                    </div>
+                </span>
+            </div>
+        </div>
+        
+    </div>
+</aside>
+
+
+
+  
+  
   
 
-    
+  
+
+  
+    <section id="comments">
+      <div id="disqus_thread"></div>
+        <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'x-blankspace'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </section>
+  
+
+  
 
 
           </div>
@@ -223,8 +492,8 @@
 	var yiliaConfig = {
 		mathjax: true,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
