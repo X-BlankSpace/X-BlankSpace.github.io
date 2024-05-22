@@ -6,9 +6,10 @@ categories: Learning
 tags: [Algorithm, AC Automaton]
 ---
 ## Problem Description
-题目链接：
+> 题目链接：
 [Kattis / First of Her Name](https://open.kattis.com/problems/firstofhername)
 [洛谷 / P6257 First of Her Name](https://www.luogu.com.cn/problem/P6257)
+> 难度：省选 / NOI−
 
 众所周知，皇室家族的名字非常有讲究。而作为研究皇室的历史学家的你，最近接到了一个艰巨的任务——分析王国历史中所有皇室夫人的名字。
 

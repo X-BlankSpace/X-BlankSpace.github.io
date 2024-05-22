@@ -6,7 +6,8 @@ categories: Learning
 tags: [Algorithm, Trie, DP]
 ---
 ## Problem Description
-题目链接：[UVA / Remember the Word](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=4147)
+> 题目链接：[UVA / Remember the Word](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=4147)
+> 难度：提高+ / 省选−
 
 给出一个由 S 个不同单词组成的字典和一个长字符串 Str。把这个字符串分解成若干个单词的连接（单词可以重复使用），有多少种方法？比如，有 4 个单词 a, b, cd, ab，则 abcd 有两种分解方法：a + b + cd 和 ab + cd。
 
