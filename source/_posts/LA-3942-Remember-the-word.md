@@ -5,7 +5,7 @@ toc: true
 categories: Learning
 tags: [Algorithm, Trie, DP]
 ---
-### Problem Description
+## Problem Description
 给出一个由 S 个不同单词组成的字典和一个长字符串 Str。把这个字符串分解成若干个单词的连接（单词可以重复使用），有多少种方法？比如，有 4 个单词 a, b, cd, ab，则 abcd 有两种分解方法：a + b + cd 和 ab + cd。
 
 输入包含多组数据，每组数据第一行为待分解的字符串，其长度 L 不超过 300, 000。第二行为单词个数 S，$1\leq S\leq4000$。 以下 S 行每行为一个单词，由不超过 100 个小写字母组成。
@@ -13,9 +13,9 @@ tags: [Algorithm, Trie, DP]
 对每组数据输出方案数模 20, 071, 027。
 
 <!--more-->
-### Thought
+## Thought
 
-#### Trie 字典树 / 前缀树
+### Trie 字典树 / 前缀树
 
 ![Trie png](/assets/Trie.png)
 
@@ -25,7 +25,7 @@ $Trie$ 中从根节点到子节点的路径上的字母就组成了一个个字�
 
 上图表示的字典树是在依次输入以下单词后形成的：$[ a, b, c, aa, ab, ba, ca, cb, cc, aba, caa, cab, cba, caaa ]$
 
-#### DP 动态规划
+### DP 动态规划
 
 令 $dp[i]$ 表示字符串 $Str[i…(len-1)]$ 的分解方案数，也就是从下标 $i$ 开始到字符串结束的分解方案数，显然最终答案就是 $dp[0]$。从后往前递推，边界条件为 $dp[len] = 1$。
 
@@ -35,9 +35,11 @@ $Trie$ 中从根节点到子节点的路径上的字母就组成了一个个字�
 
 > $dp[0] = dp[1] + dp[2]$，对应的两种方案为 $a + babc$，$ab + abc$<br />$dp[1] = dp[2]$，对应的方案为 $b + abc$<br />$dp[2] = dp[3]$ 对应的方案为 $a + bc$<br />$dp[3] = dp[5] = 1$，对应的方案为 $bc + 空字符串（边界）$
 
+> （发现了吗？这本质上和跳台阶问题是同一类问题，属于跳台阶的变式）
+
 <br />最终答案为 $dp[0] = 2$
 
-### Code
+## Code
 ``` CPP
 #include<iostream>
 #include<cstdio>
