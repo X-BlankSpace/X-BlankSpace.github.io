@@ -1,11 +1,13 @@
 ---
-title: LA 3942 Remember the word
+title: UVA 1401 Remember the Word
 date: 2015-12-05 
 toc: true
 categories: Learning
 tags: [Algorithm, Trie, DP]
 ---
 ## Problem Description
+题目链接：[UVA / Remember the Word](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=4147)
+
 给出一个由 S 个不同单词组成的字典和一个长字符串 Str。把这个字符串分解成若干个单词的连接（单词可以重复使用），有多少种方法？比如，有 4 个单词 a, b, cd, ab，则 abcd 有两种分解方法：a + b + cd 和 ab + cd。
 
 输入包含多组数据，每组数据第一行为待分解的字符串，其长度 L 不超过 300, 000。第二行为单词个数 S，$1\leq S\leq4000$。 以下 S 行每行为一个单词，由不超过 100 个小写字母组成。
@@ -94,7 +96,7 @@ void calcNumOfPlans(char *str){		// 递推
 }
 
 int main(){
-	int n, kase;
+	int n, kase = 0;
 	while(~scanf("%s", str)){
 		init();
 
