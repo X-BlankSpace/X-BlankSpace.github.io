@@ -97,6 +97,13 @@
   </url>
   
   <url>
+    <loc>https://x-blankspace.github.io/tags/Guide/</loc>
+    <lastmod>2024-05-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://x-blankspace.github.io/tags/Trie/</loc>
     <lastmod>2024-05-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -105,13 +112,6 @@
   
   <url>
     <loc>https://x-blankspace.github.io/tags/DP/</loc>
-    <lastmod>2024-05-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://x-blankspace.github.io/tags/Guide/</loc>
     <lastmod>2024-05-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
