@@ -163,8 +163,8 @@ svg:not(:root) {
 // 2. Improve readability of pre-formatted text in all browsers.
 pre {
     overflow: auto; // 1
-    white-space: pre; // 2
     white-space: pre-wrap; // 2
+    white-space: pre; // 2
     word-wrap: break-word; // 2
 }
 
